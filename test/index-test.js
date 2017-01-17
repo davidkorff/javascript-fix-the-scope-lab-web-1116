@@ -16,7 +16,7 @@ describe('Fix the Scope', function() {
       expect(window.yourAnimal.toString()).toNotContain("return 'cat'")
     })
   })
-
+eerig
   describe('add2(n)', function() {
     it('adds two to n', function() {
       const n = Math.floor(Math.random() * 1000)
